@@ -1,0 +1,29 @@
+.app {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 8fr ;
+  grid-template-rows: 1fr 20fr 1fr;
+  grid-template-areas: 
+    "header header"
+    "sidebar message"
+    "sidebar chat";
+}
+.header { 
+  grid-area: header; 
+}
+.sidebar { 
+  grid-area: sidebar; 
+}
+.message { 
+  grid-area: message; 
+}
+.chat { 
+  grid-area: chat; 
+}
+
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

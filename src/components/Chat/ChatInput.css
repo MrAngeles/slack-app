@@ -1,0 +1,9 @@
+.chat-input {
+  padding: 10px;
+}
+.chat-input textarea {
+  border-radius: 5px;
+  resize:none;
+  width: 100%;
+  height: 80px;
+}
